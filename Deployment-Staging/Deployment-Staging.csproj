@@ -9,13 +9,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AC95BAA1-B03C-4222-8C2B-E324A88DFAB1}</ProjectGuid>
+    <ProjectGuid>{90F8DD21-03DE-41D2-956B-0C616F0D9194}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DeployementTest</RootNamespace>
-    <AssemblyName>DeployementTest</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Deployment_Staging</RootNamespace>
+    <AssemblyName>Deployment-Staging</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -155,165 +155,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Antlr3.Runtime.dll" />
-    <Content Include="bin\Antlr3.Runtime.pdb" />
-    <Content Include="bin\DeployementTest.dll" />
-    <Content Include="bin\DeployementTest.pdb" />
-    <Content Include="bin\Microsoft.AI.Agent.Intercept.dll" />
-    <Content Include="bin\Microsoft.AI.DependencyCollector.dll" />
-    <Content Include="bin\Microsoft.AI.DependencyCollector.xml" />
-    <Content Include="bin\Microsoft.AI.PerfCounterCollector.dll" />
-    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.dll" />
-    <Content Include="bin\Microsoft.AI.Web.dll" />
-    <Content Include="bin\Microsoft.AI.Web.xml" />
-    <Content Include="bin\Microsoft.AI.WindowsServer.dll" />
-    <Content Include="bin\Microsoft.AI.WindowsServer.xml" />
-    <Content Include="bin\Microsoft.ApplicationInsights.dll" />
-    <Content Include="bin\Microsoft.AspNet.TelemetryCorrelation.dll" />
-    <Content Include="bin\Microsoft.AspNet.TelemetryCorrelation.xml" />
-    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
-    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
-    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
-    <Content Include="bin\Newtonsoft.Json.dll" />
-    <Content Include="bin\Newtonsoft.Json.xml" />
-    <Content Include="bin\php\deplister.exe" />
-    <Content Include="bin\php\ext\php_bz2.dll" />
-    <Content Include="bin\php\ext\php_com_dotnet.dll" />
-    <Content Include="bin\php\ext\php_curl.dll" />
-    <Content Include="bin\php\ext\php_dba.dll" />
-    <Content Include="bin\php\ext\php_enchant.dll" />
-    <Content Include="bin\php\ext\php_exif.dll" />
-    <Content Include="bin\php\ext\php_fileinfo.dll" />
-    <Content Include="bin\php\ext\php_ftp.dll" />
-    <Content Include="bin\php\ext\php_gd2.dll" />
-    <Content Include="bin\php\ext\php_gettext.dll" />
-    <Content Include="bin\php\ext\php_gmp.dll" />
-    <Content Include="bin\php\ext\php_imap.dll" />
-    <Content Include="bin\php\ext\php_interbase.dll" />
-    <Content Include="bin\php\ext\php_intl.dll" />
-    <Content Include="bin\php\ext\php_ldap.dll" />
-    <Content Include="bin\php\ext\php_mbstring.dll" />
-    <Content Include="bin\php\ext\php_mysqli.dll" />
-    <Content Include="bin\php\ext\php_oci8_12c.dll" />
-    <Content Include="bin\php\ext\php_odbc.dll" />
-    <Content Include="bin\php\ext\php_opcache.dll" />
-    <Content Include="bin\php\ext\php_openssl.dll" />
-    <Content Include="bin\php\ext\php_pdo_firebird.dll" />
-    <Content Include="bin\php\ext\php_pdo_mysql.dll" />
-    <Content Include="bin\php\ext\php_pdo_oci.dll" />
-    <Content Include="bin\php\ext\php_pdo_odbc.dll" />
-    <Content Include="bin\php\ext\php_pdo_pgsql.dll" />
-    <Content Include="bin\php\ext\php_pdo_sqlite.dll" />
-    <Content Include="bin\php\ext\php_pgsql.dll" />
-    <Content Include="bin\php\ext\php_phpdbg_webhelper.dll" />
-    <Content Include="bin\php\ext\php_shmop.dll" />
-    <Content Include="bin\php\ext\php_snmp.dll" />
-    <Content Include="bin\php\ext\php_soap.dll" />
-    <Content Include="bin\php\ext\php_sockets.dll" />
-    <Content Include="bin\php\ext\php_sodium.dll" />
-    <Content Include="bin\php\ext\php_sqlite3.dll" />
-    <Content Include="bin\php\ext\php_sysvshm.dll" />
-    <Content Include="bin\php\ext\php_tidy.dll" />
-    <Content Include="bin\php\ext\php_xmlrpc.dll" />
-    <Content Include="bin\php\ext\php_xsl.dll" />
-    <Content Include="bin\php\ext\php_zend_test.dll" />
-    <Content Include="bin\php\glib-2.dll" />
-    <Content Include="bin\php\gmodule-2.dll" />
-    <Content Include="bin\php\icudt61.dll" />
-    <Content Include="bin\php\icuin61.dll" />
-    <Content Include="bin\php\icuio61.dll" />
-    <Content Include="bin\php\icutest61.dll" />
-    <Content Include="bin\php\icutu61.dll" />
-    <Content Include="bin\php\icuuc61.dll" />
-    <Content Include="bin\php\index.php" />
-    <Content Include="bin\php\install.txt" />
-    <Content Include="bin\php\libcrypto-1_1-x64.dll" />
-    <Content Include="bin\php\libenchant.dll" />
-    <Content Include="bin\php\libpq.dll" />
-    <Content Include="bin\php\libsasl.dll" />
-    <Content Include="bin\php\libsodium.dll" />
-    <Content Include="bin\php\libssh2.dll" />
-    <Content Include="bin\php\libssl-1_1-x64.dll" />
-    <Content Include="bin\php\lib\enchant\libenchant_ispell.dll" />
-    <Content Include="bin\php\lib\enchant\libenchant_myspell.dll" />
-    <Content Include="bin\php\license.txt" />
-    <Content Include="bin\php\news.txt" />
-    <Content Include="bin\php\nghttp2.dll" />
-    <Content Include="bin\php\php-cgi.exe" />
-    <Content Include="bin\php\php-win.exe" />
-    <Content Include="bin\php\php.exe" />
-    <Content Include="bin\php\php.gif" />
-    <Content Include="bin\php\php7.dll" />
-    <Content Include="bin\php\php7phpdbg.dll" />
-    <Content Include="bin\php\phpdbg.exe" />
-    <Content Include="bin\php\readme-redist-bins.txt" />
-    <Content Include="bin\php\sasl2\saslANONYMOUS.dll" />
-    <Content Include="bin\php\sasl2\saslCRAMMD5.dll" />
-    <Content Include="bin\php\sasl2\saslDIGESTMD5.dll" />
-    <Content Include="bin\php\sasl2\saslLOGIN.dll" />
-    <Content Include="bin\php\sasl2\saslNTLM.dll" />
-    <Content Include="bin\php\sasl2\saslOTP.dll" />
-    <Content Include="bin\php\sasl2\saslPLAIN.dll" />
-    <Content Include="bin\php\sasl2\saslSASLDB.dll" />
-    <Content Include="bin\php\sasl2\saslSCRAM.dll" />
-    <Content Include="bin\php\sasl2\saslSQLITE.dll" />
-    <Content Include="bin\php\snapshot.txt" />
-    <Content Include="bin\roslyn\csc.exe" />
-    <Content Include="bin\roslyn\csi.exe" />
-    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
-    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
-    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
-    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
-    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
-    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
-    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
-    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
-    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
-    <Content Include="bin\roslyn\System.AppContext.dll" />
-    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
-    <Content Include="bin\roslyn\System.Console.dll" />
-    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
-    <Content Include="bin\roslyn\System.Diagnostics.Process.dll" />
-    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
-    <Content Include="bin\roslyn\System.IO.Compression.dll" />
-    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
-    <Content Include="bin\roslyn\System.IO.FileSystem.DriveInfo.dll" />
-    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
-    <Content Include="bin\roslyn\System.IO.Pipes.dll" />
-    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
-    <Content Include="bin\roslyn\System.Security.AccessControl.dll" />
-    <Content Include="bin\roslyn\System.Security.Claims.dll" />
-    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
-    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
-    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
-    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
-    <Content Include="bin\roslyn\System.Security.Principal.Windows.dll" />
-    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
-    <Content Include="bin\roslyn\System.Threading.Thread.dll" />
-    <Content Include="bin\roslyn\System.ValueTuple.dll" />
-    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
-    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
-    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
-    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
-    <Content Include="bin\roslyn\vbc.exe" />
-    <Content Include="bin\roslyn\VBCSCompiler.exe" />
-    <Content Include="bin\System.Diagnostics.DiagnosticSource.dll" />
-    <Content Include="bin\System.Diagnostics.DiagnosticSource.xml" />
-    <Content Include="bin\System.Web.Helpers.dll" />
-    <Content Include="bin\System.Web.Helpers.xml" />
-    <Content Include="bin\System.Web.Mvc.dll" />
-    <Content Include="bin\System.Web.Mvc.xml" />
-    <Content Include="bin\System.Web.Optimization.dll" />
-    <Content Include="bin\System.Web.Optimization.xml" />
-    <Content Include="bin\System.Web.Razor.dll" />
-    <Content Include="bin\System.Web.Razor.xml" />
-    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
-    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
-    <Content Include="bin\System.Web.WebPages.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.xml" />
-    <Content Include="bin\System.Web.WebPages.xml" />
-    <Content Include="bin\WebGrease.dll" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -327,26 +168,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="bin\ApplicationInsights.config" />
-    <Content Include="bin\DeployementTest.dll.config" />
-    <Content Include="bin\php\dev\php7.lib" />
-    <Content Include="bin\php\extras\ssl\openssl.cnf" />
-    <Content Include="bin\php\phar.phar.bat" />
-    <Content Include="bin\php\pharcommand.phar" />
-    <Content Include="bin\php\php.ini-development" />
-    <Content Include="bin\php\php.ini-production" />
-    <Content Include="bin\php\php7embed.lib" />
-    <Content Include="bin\roslyn\csc.exe.config" />
-    <Content Include="bin\roslyn\csc.rsp" />
-    <Content Include="bin\roslyn\csi.exe.config" />
-    <Content Include="bin\roslyn\csi.rsp" />
-    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
-    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
-    <Content Include="bin\roslyn\vbc.exe.config" />
-    <Content Include="bin\roslyn\vbc.rsp" />
-    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
-    <None Include="Properties\PublishProfiles\DeploymentSwapCheck-ProdSlot - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\DeploymentSwapCheck-StagSlot - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\StagingDeployment-StagSlot - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -358,9 +181,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -377,7 +198,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="bin\php\bin\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -409,9 +229,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2178</DevelopmentServerPort>
+          <DevelopmentServerPort>1535</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2178/</IISUrl>
+          <IISUrl>http://localhost:1535/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
